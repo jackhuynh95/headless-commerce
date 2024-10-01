@@ -9,7 +9,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 nvm --version
 
-#Install Node.js Using NVM
+# Install Node.js Using NVM
 nvm install node@18
 node -v
 npm -v
