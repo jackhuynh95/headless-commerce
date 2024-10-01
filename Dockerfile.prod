@@ -1,4 +1,5 @@
-FROM node:17.1.0 as builder
+# Use the Ubuntu image and name the stage "builder"
+FROM node:17.1.0 AS builder
 
 WORKDIR /app/medusa
 
